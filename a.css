@@ -1,0 +1,55 @@
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    flex-wrap: wrap;
+}
+.h{
+    color: transparent;
+    background: linear-gradient(to right , rgb(44, 44, 255) , rgb(216, 10, 227));
+    background-clip: text;
+    text-align: center;
+    font-size: 5rem;
+}
+.contt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+    margin: 2rem;
+
+}
+.cont{
+    background: linear-gradient(to right , rgb(109, 109, 255) , rgb(246, 105, 254));
+    margin: 1rem;
+    padding: 0px 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    width: clamp(255px, 255px, 255px);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    border-radius: 1rem;
+}
+img{
+    margin-top: 3px;
+    width: 282px;
+    height: 188px;
+    border-radius: 1rem;
+}
+
+.cont:hover{
+    border:  2px solid rgb(109, 109, 255);
+}
+button{
+    width: 55px;
+    height: 25px;
+    border-radius: 1rem;
+    background:  rgb(109, 109, 255);
+    border:  2px solid rgb(194, 194, 255);
+    color: rgb(194, 194, 255);
+}
